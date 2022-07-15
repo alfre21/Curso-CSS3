@@ -1,0 +1,4 @@
+/* este codigo css es para poner toda la web en rojo */
+*{ /* El * es el selector universal */
+    color: red; /* propiedad: valor; */
+}
