@@ -1,0 +1,13 @@
+/* colocar # antes del id */
+#subtitulo_principal{
+    color:red;
+}
+#ingresar_texto{
+    color:yellow;
+}
+#boton_enter{
+    color:blueviolet;
+}
+#parrafo_lorem{
+    color:blue;
+}
