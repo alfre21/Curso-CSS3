@@ -1,0 +1,20 @@
+/*Titulo */
+h1 {
+    color:red;
+}
+/* Subtitulo */
+h2 {
+    color:blue;
+}
+/* Input */
+input {
+    color:aqua;
+}
+/* Boton */
+button{
+    color:blueviolet;
+}
+/* Parrafo */
+p{
+    color:green;
+}
