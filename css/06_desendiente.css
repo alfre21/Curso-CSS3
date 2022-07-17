@@ -1,0 +1,12 @@
+h2 p{
+    color:red;
+}
+h2 b{
+    color:blue;
+}
+.h2-clase p{
+    color:yellow;
+}
+.otra_clase_h2 b span{
+    color:grey;
+}
