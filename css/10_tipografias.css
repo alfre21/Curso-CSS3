@@ -1,0 +1,27 @@
+.contact-form__h2{
+    font-size:100px;
+}
+/*
+.contact-form__h2{
+    font-size:50cm;
+}
+.contact-form__h2{
+    font-size:50mm;
+}
+.contact-form__h2{
+    font-size:50pt;
+}
+em por lo general vale 16 pixeles. Depende del navegador
+em se utiliza en responsive design
+
+*/
+/* Para que 1 em valga 20 px o 30 px o cualquier valor se hace lo siguiente */
+/* 
+.contact-form{
+    font-size: 20px; /*1 em es el valor que le damos en esta linea */ /*
+}
+.contact-form__h2{
+    font-size: 5em; /* si 1 em vale 20 px, aqui los 5 em valen 100px */ /*
+}
+1 em vale el valor que le demos en el contenedor
+*/
