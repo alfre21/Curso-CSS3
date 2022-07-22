@@ -1,0 +1,8 @@
+/* 
+.contact-form__input:frist-child {
+    color:red;
+}
+*/
+ .contact-form__input--active{
+    color:red;
+ }
