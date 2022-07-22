@@ -1,0 +1,17 @@
+#color_amarillo{
+    color:yellow;
+}
+.color_red{ /* clase*/
+    color:red;
+}
+h1{
+    color:blue;
+}
+[atributo="color_green"]{ /*Estes es un atributo */
+    color:green;
+} /*Las clases y los atributos estan en la misma jerarquia */
+/*es decir estan por cascada, el que viene al ultimo se queda */
+/* los id tienen mas jerarquia que las clases */
+h1{
+    color:grey !important;
+}
