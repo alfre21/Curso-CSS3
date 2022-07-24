@@ -1,0 +1,14 @@
+.contact-form {
+    font-size: 25px;
+}
+.contact-form__h2 {
+    font-size: 2em;
+    /*
+    font-family: Georgia; */
+    font-family: 'Edu VIC WA NT Beginner', cursive, 'Georgia';
+    line-height: 1.9; /* esto no es muy util */
+    font-weight: normal; /* lo hacemos mas negrita, en vez de normal escribimos 400, 600, 700 el valor que queramos */
+    font-stretch: normal; /* esto no es muy util */
+    font-variant: small-caps; /* esto no es muy util */
+    color:blue
+}
