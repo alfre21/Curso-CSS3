@@ -1,0 +1,10 @@
+/* Teoria de cajas o Box model */
+* {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+h2 {
+    display: inline;
+    /* display: block; */
+}
