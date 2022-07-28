@@ -1,0 +1,26 @@
+/* box model */
+/* Las 4 propiedades que forman el box model son: */
+/*
+content Modificamos el contenido con el line-height (modifica el tamaño de la linea)
+padding
+border
+margin 
+Cada una de estas propiedades se aplica uno encima del otro
+Primero va el contenido y luego las 4 propiedades que forman el box model
+*/
+* {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+h2 {
+    background-color: rgb(255, 0, 179);
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 50%;
+    border: 15px ridge grey;
+
+}
