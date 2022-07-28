@@ -1,0 +1,21 @@
+/* Text Shadow */
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+h2 {
+    background-color: rgb(38, 0, 255);
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 50%;
+    border: 5px dashed red;
+    box-shadow: 30px 10px 15px 3px #000, 30px 10px 15px 3px #000, 30px 10px 15px 3px #000, 30px 10px 15px 3px #000;
+    /* text shadow es lo mismos que el box shadow pero para el texto */
+    /*text-shadow: 2px 2px 7px #fff;*/ /* Para duplicar el efecto solo copiamos y pegamos */
+    /* lo mismo funciona para el box-shadow mire linea 16*/ 
+    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff, 2px 2px 7px #fff, 2px 2px 7px #fff, 2px 2px 7px #fff, 2px 2px 7px #fff;
+}
