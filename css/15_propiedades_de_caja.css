@@ -1,0 +1,39 @@
+/* Propiedades de caja */
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+/* Bordes  y color de fondo*/
+h2 {
+    background-color:blueviolet;
+    display: inline-block; 
+    padding-bottom: 20px; /*abajo*/
+    padding-top: 20px; /*arriba */
+    padding-left: 30px; /* izquierda */
+    padding-right: 30px;  /*derecha */
+}
+h3 {
+    background-color:aqua;
+    display: inline-block;
+    padding: 100px; /* 100 px los 4 lados */
+}
+h4 {
+    background-color:blanchedalmond;
+    display: inline-block;
+    padding: 10px 50px; /* top y bottom 10 px, left y right 50 px */
+    /* padding: 10px 20px 30px 40px; */ /* top, rigth, bottom, left */
+    /* padding: 10px 20px 30px; */ /* top, rigth, bottom, left = rigth */
+    /* padding: 10px 20px; */ /* top y bottom = 10px, rigth y left = 20px */
+}
+h5 {
+    background-color:rgb(42, 165, 52);
+    display: inline-block;
+    padding: 10px 50px;
+    height: 100px; /* alto*/
+    width: 300px; /* ancho */
+    /* con la siguiente propiedad la caja no se deforma */
+    box-sizing: border-box;
+    /* Para centrar el texto */
+    text-align: center;
+}
