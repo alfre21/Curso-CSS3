@@ -1,0 +1,27 @@
+/* Outline */
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+.caja1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: auto;
+    border: 10px solid blue;
+}
+.caja2 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    margin: auto;
+    outline: 10px solid blue; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+}
+/* en una sola */
+/* 
+.caja1, .caja2 {
+    width: 200px; wight = ancho 
+    /*height: 200px;  height = largo 
+}
+*/
