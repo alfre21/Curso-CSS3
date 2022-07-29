@@ -25,3 +25,15 @@
     /*height: 200px;  height = largo 
 }
 */
+.caja3, .caja4, .caja5, .caja6 {
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 0, 157);
+    display: inline-block; /* para que se alinien como bloques */
+}
+.caja6 {
+    outline: 10px solid #000;
+}
+.caja4 {
+    border: 5px solid #000;
+}
