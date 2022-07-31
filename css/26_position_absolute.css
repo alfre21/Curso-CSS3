@@ -1,0 +1,73 @@
+/* Position absolute */
+
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+.caja1 {
+    background-color: orange;
+}
+.caja2 {
+    background-color: blue;
+    position: absolute; /* La caja 2 desaparece pero en realidad ahi esta */
+    /* para mostrarla con la siguiente propuedad  */
+    opacity: 0.2; /* .5 = 0.5 */ /* la opacity es la opacidad 0 = totalmente transparente, 1 = no opaco */
+    /* mover para ver claramente */
+    margin-left: 300px;
+    /* la opacidad va desde el 0 hasta el 1: 0.123456789*/
+}
+.caja3 {
+    background-color: yellow;
+}
+/* colocar todas las cajas del mismo tamaño */
+
+div {
+    /* el psotion absolute se ajusta al ancho de la caja al; contenido, si le quito el width y el height 
+    se ajusta ejemplo en la clase .contenedor*/
+    display: block;
+    background: rgb(199, 199, 4);
+    position: absolute;
+}
+/* darle tamaño a las cajaas */
+div div {
+    height: 100px;
+    width: 100px;
+    background:rgb(12, 129, 1)
+}
+/* usar position absolute en todas las cajas */
+.contenedor {
+    /* margin: 50px auto; para que se centre con el width y el height*/
+    margin: 50px auto;
+    /*margin: 100px; */ /* si eliminamos el margin y todas las cajas de la clase contenedor se ajusta. Con position relative o pasa eso */
+    /*position: static;*/
+    /*position: absolute;*/
+    position: relative;  
+    border: 4px solid black;
+    height: 450px;
+    width: 450px;
+    /*
+    el margin auto es como poner:
+    margin-left
+    margin-rigth
+    margin: 50px eje Y y auto eje X = automatico a los costados 
+    */
+}
+.caja11 {
+    /*background-color: red;*/
+    /* izquierda por default */
+}
+.caja22 {
+    /*background-color:blueviolet;*/
+    /* derecha */
+    right: 0;
+}
+.caja33 {
+    /*background-color:aqua;*/
+    right: 0; /* derecha*/
+    bottom: 0; /* abajo */
+}
+.caja44 {
+    /*background-color: rgb(21, 255, 0);*/
+    bottom: 0; /* de arriab a solo abajo */
+}
