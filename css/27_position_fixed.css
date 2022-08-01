@@ -1,0 +1,21 @@
+/* 
+Position FIXED
+FIXED es igual Aboslute pero queda fijado
+FIXED se aplica por lo general en menus
+*/
+* {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+body {
+    padding-top: 100px;
+}
+.caja-fixed {
+    background: red;
+    position: fixed; /* no ocupa espacio en pantalla */ /* si le haces scroll no se mueve, se queda fijo */
+    /*top: 20px;*/
+    opacity: .4;
+    margin: -100px;
+}
+/* NOTA: hay muchas formas de hacer esto */
