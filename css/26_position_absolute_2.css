@@ -1,0 +1,58 @@
+/*
+-
+*/
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+div {
+    display: block;
+    background: orange;
+    position: absolute;
+}
+div div {
+    height: 120px;
+    width: 120px;
+    background: yellow;
+    border: 4px solid white;
+}
+.contenedor {
+    position: relative;
+    border: 4px solid black;
+    margin: 50px auto;
+    height: 500px;
+    width: 500px;
+    /* en ves del margin: 50px auto; puede ir lo siguiente */
+    /*
+    margin-left: 100px;
+    margin-top: 50px;
+    */
+}
+.caja1 {
+    
+}
+.caja2 {
+    right: 0;
+}
+.caja3 {
+    right: 0;
+    bottom: 0;
+
+}
+.caja4 {
+    bottom: 0;
+}
+/* Colocar la caja 5 en el medio */
+.caja5 {
+    /* esta forma es muy sencilla utilizando las matematicas */
+    /* la mitad de la caja es 250px, menos los 120px: 120 / 2 = 60px de los divs, 
+    menos los 4 px del border son : 186px */
+    /*margin: 186px;*/
+    /* y la forma mas sencilla para no meterse con las matecamitas es: */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
