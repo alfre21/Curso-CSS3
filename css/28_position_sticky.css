@@ -1,0 +1,19 @@
+/* 
+Position STICKY
+STICKY es una mexcla entre RELATIVE Y FIXED
+*/
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+/* 
+al igual que el postion relative y el fixed el  STICKY el espacio lo CONSERVA
+*/
+.caja-menu {
+    background-color: red;
+    position: sticky;
+    opacity: 0.3;
+    top: -20px;
+    /*margin-top: 100px; */
+}
