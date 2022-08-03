@@ -1,0 +1,50 @@
+/*
+autoevaluacion 2
+*/
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+/* hover */
+.contenedor h1:hover{
+    color: yellow;
+}
+.contenedor h2:hover{
+    color:blueviolet;
+}
+.contenedor h2 p:hover {
+    color: red;
+}
+.contenedor h2 b:hover {
+    color: blue;
+}
+/* Prioridad */
+/*
+La siguiente es como por orden de jerarquia y no por cascada.
+1 Clases
+2 elementos
+3 id
+4 estilos en linea
+5 !important
+*/
+/* ordenamos de forma desordenada para ver la jerarquia */
+h1 {
+    /* como observamos cambio el color a todos los h1 del codumento html */
+    color:grey !important; 
+}
+/*color blue */
+#color_amarillo {
+    color: yellow;
+}
+[atributo="color_green"] {
+    color: green;
+}
+/* h1 {
+    color: aqua;
+}
+*/
+.color_red {
+    color:red;
+}
+/* NOTA: observamos que aqui no funciona el modo cascada si no el modo jerarquia */
