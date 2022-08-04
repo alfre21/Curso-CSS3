@@ -1,0 +1,58 @@
+/*
+Tipografias
+*/
+.contact-form__h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    background: rgb(245, 143, 143);
+    color: blue;
+}
+.contact-form__h2:first-letter {
+    color:red;
+    font-size: 200px;;
+}
+/*
+font-size: 50cm;
+font-size: 50nm;
+font-size: 50pt;
+O toda el contenedor o caja
+.contact-form {
+    color:yellow;
+}
+*/
+/*
+medidas relativas 
+*/
+.other-form {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    width: 50%;
+    height: 50%;
+}
+.other-form__h2:first-letter{
+    color: aqua;
+    font-size: 100px;
+}
+/*
+Propiedades de texto
+*/
+.other-contact-form__h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    background-color:antiquewhite;
+    color: goldenrod;
+}
+.other-contact-form__h2:first-letter {
+    font-style:italic;
+    font-weight: 900;
+    font-size: 60px;
+    color:black;
+}
+/* continuacion de la autoevaluacion en los siguientes archivos */
