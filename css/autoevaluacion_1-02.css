@@ -48,3 +48,15 @@ h1 {
     color:red;
 }
 /* NOTA: observamos que aqui no funciona el modo cascada si no el modo jerarquia */
+/* Siguiente:
+Metodologia BEM
+*/
+.contact-form__input{
+    color:red;;
+}
+.contact-form__input:first-child{
+    color:blue;
+}
+.contact-form__input--active{
+    color:yellowgreen;
+}
