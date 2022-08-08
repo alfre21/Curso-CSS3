@@ -1,0 +1,46 @@
+/* Position Absolute */
+/* dibujando 5 cajas adentro de una caja */
+* {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 30px;
+}
+div {
+    display: block;
+    background: yellow;
+    position: absolute;
+}
+div div {
+    height: 125px;
+    width: 125px;
+    background: rgb(47, 137, 255);
+    border: 4px solid whitesmoke;
+}
+.contenedor {
+    position: relative;
+    border: 4px solid black;
+    margin: 50px auto;
+    height: 500px;
+    width: 500px;
+}
+.caja1 {
+    /* por default esta a la izquierda */
+}
+.caja2 {
+    right: 0;
+}
+.caja3 {
+    right: 0;
+    bottom: 0;
+}
+.caja4 {
+    bottom: 0;
+}
+.caja5 {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/* continuar en los siguientes archivos */
