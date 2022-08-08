@@ -1,0 +1,223 @@
+/*
+Box model o teoria de cajas
+*/
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+h2 {
+    display: inline; /* coloca todos los h2 en una linea. Como en una linea */
+}
+b {
+    display: block; /* coloca los b en otra linea. Como un bloque*/
+}
+/* propiedades de una caja */
+/* bordes */
+h3 {
+    background-color: grey;
+    display: inline-block; /* fondo del tamaño del texto */
+    /* padding = bordes por todos lados del mismo tamaño */
+    padding-bottom: 20px; /* abajo */
+    padding-top: 50px; /* arriba */
+    padding-left: 15px; /* izquierda */
+    padding-right: 70px; /* derecha */
+}
+h4 {
+    background-color:aqua;
+    display: inline-block; /* es una mezcla entre inline y block. */
+    padding: 10px 40px; /* arriba y abajo = 10px. Derecha e izquierda = 40px */
+}
+h5 {
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 10px 80px;
+    height: 100px;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* margin */
+h6 {
+    background-color: goldenrod;
+    display: inline-block;
+    padding: 50px;
+    margin: 50px; /* el margen es por fuera de la caja */
+    /* margin: 10px 30px; /* arriba y abajo = 10px, derecha e izquierda = 30px */ */
+}
+/* border radius */
+.border {
+    background-color: rgb(247, 138, 138);
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 2em;
+}
+.margen__h2 {
+    background-color:rgb(140, 138, 247);
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px 20px;
+}
+.border-normal__h2 {
+    background-color:rgb(98, 245, 159);
+    display: inline-block;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 50%;
+    border: 15px ridge grey;
+}
+.box-model__h2 { /* ESTO ES LO MISMO QUE EL BORDER NORMAL */
+    background-color:rgb(189, 245, 98);
+    display: inline-block;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 30px 25px;
+    border-radius: 50%;
+    border: 15px solid grey;
+}
+/* Box shadow y Text Shadow */
+.box-shadow__h2 {
+    background-color:rgb(190, 247, 33);
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 15px;
+    border-radius: 40%;
+    border: 2px dashed blue;
+    box-shadow: 40px 30px 20px 10px #000, 40px 30px 20px 10px #000, 40px 30px 20px 10px #000;
+    text-shadow: 3px 3px 9px #fff, 3px 3px 9px #fff, 3px 3px 9px #fff, 3px 3px 9px #fff, 3px 3px 9px #fff, 3px 3px 9px #fff, 3px 3px 9px #fff, 3px 3px 9px #fff, 3px 3px 9px #fff;
+    /* el box-shadow es para darle sombra al contenedor 
+    y el text shadow lo mismo pero al texto que esta adentro del contenedor */
+}
+/* Transform */
+.transform__h2 {
+    background-color:rgb(231, 127, 252);
+    display: inline-block;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px 5px;
+    border-radius: 40%;
+    box-shadow: 10px 5px 5px 5px #000, 10px 5px 5px 5px #000, 10px 5px 5px 5px #000;
+    text-shadow: 2px 2px 6px #fff, 2px 2px 6px #fff, 2px 2px 6px #fff, 2px 2px 6px #fff, 2px 2px 6px #fff, 2px 2px 6px #fff;
+    transform: rotate(-30deg); /* propiedad, funcion y grados de rotacion */
+}
+/* Outline */
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6 {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    display: inline-block; /* para que se alinien como bloques */
+}
+.caja4 {
+    outline: 10px solid red; /* **** */
+}
+.caja6 {
+    border: 5px solid yellow;
+}
+/* Position */
+.position-caja1, .position-caja2, .position-caja3, .position-caja4 {
+    width: 120px;
+    height: 120px;
+    display: block;
+    background: rgb(61, 245, 230);
+}
+.position-caja1 {
+    background-color: red;
+    position: relative;
+    left: 30px;
+}
+.position-caja2 {
+    background-color: yellow;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    z-index: 1;
+}
+.position-caja3 {
+    background-color: green;
+    position: relative;
+    bottom: 60px;
+    right: 10px;
+}
+.position-caja4 {
+    background-color:rgb(140, 138, 247);
+    position: fixed;
+}
+/* Position z-index */
+.contenedor-padre {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 30px;
+    position: relative;
+}
+.contenedor-hijo {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+/* Position absolute */
+.caja11, .caja22, .caja33 {
+    display: inline-block;
+    /* darle tamaño a las cajas */
+    height: 100px;
+    width: 100px;
+}
+.caja11 {
+    background-color:rgb(61, 245, 230);
+}
+.caja22 {
+    background-color:rgb(98, 245, 159);
+    /* la caja 2 va a desaparecer de la vista pero en realidad ahi esta */
+    position: absolute;
+    opacity: 0.8;
+    text-align: center;
+}
+.caja33 {
+    background-color:rgb(190, 247, 33);
+}
+/* siguiente */
+.cont {
+    display: block;
+    background: grey;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+}
+.cont-caja1, .cont-caja2, .cont-caja3, .cont-caja4 {
+    margin: 40px auto;
+    position: absolute; /* position: relative las cajas no se mueven */
+    border: 4px solid black;
+    height: 100px;
+    width: 100px;
+}
+.cont-caja1 {
+    background-color: red;
+    /* por default se pone a la izquierda */
+}
+.cont-caja2 {
+    background-color:blue;
+    right: 0;
+}
+.cont-caja3 {
+    background-color: aqua;
+    right: 0;
+    bottom: 0;
+}
+.cont-caja4 {
+    background-color:rgb(247, 138, 138);
+    bottom: 0;
+}
