@@ -1,0 +1,12 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+.caja-menu {
+    background-color: rgb(28, 255, 7);
+    position: sticky;
+    opacity: 0.6;
+    top: -20px;
+    font-weight: 500;
+}
