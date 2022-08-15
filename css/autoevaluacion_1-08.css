@@ -1,0 +1,29 @@
+* {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+.cajas__caja {
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+    border: 7px solid red;
+    background: yellowgreen;
+    display: inline-block; /* una caja de lado de otra. En una linea */
+}
+.cajas-texto__negrita {
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+    background: rgb(140, 243, 71);
+    border: 15px solid rgb(26, 177, 247);
+    display: block; /* una caja de bajo de otra */
+}
+.otra-negrita {
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+    background:rgb(245, 80, 237);
+    border: 10px solid rgb(132, 247, 87);
+    display: inline; /* una caja a lado de otra */
+}
