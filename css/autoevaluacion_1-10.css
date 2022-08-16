@@ -1,0 +1,35 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+.principal {
+    float: left;
+}
+.principal div {
+    width: 50%;
+    float: right;
+}
+.primario {
+    background: rgb(245, 118, 118);
+}
+.secundario {
+    background: rgb(115, 115, 236);
+}
+img {
+    width: 300px;
+    height: 290px;
+}
+.contenedor {
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid red;
+    background: grey;
+    width: 50%;
+    padding: 5px; /* borders */
+}
+.contenedor img {
+    float: right; /* imagen a la derecha */
+    width: 300px;
+    margin-right: 20px;
+}
