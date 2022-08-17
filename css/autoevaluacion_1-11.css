@@ -1,0 +1,114 @@
+/*
+Repetir autoevaluaciones desde 
+la autoevaluacion 1 01 a la
+autoevaluacion 1 10
+*/
+* {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 15px;
+}
+/* dando color a todo los elementos de una clase */
+.dar_color_a_todo {
+    color: red;
+}
+.dar_color_a_todo input, button {
+    color: red;
+}
+/* dar color por etiqueta */
+.color_etiqueta h1{
+    color:aqua;
+}
+.color_etiqueta h2 {
+    color:blueviolet;
+}
+.color_etiqueta input {
+    color:brown;
+}
+.color_etiqueta button {
+    color: yellow;
+}
+.color_etiqueta p {
+    color: yellowgreen;
+}
+/* Color por clases */
+.titulo {
+    color: red;
+}
+.titulo_secundario {
+    color:aqua;
+}
+.ingresar {
+    color:blue;
+}
+.boton {
+    color:blueviolet;
+}
+.parrafo {
+    color:brown;
+}
+/* Color por ID, atributo y de forma desendiente */
+/* Por ID */
+#titulo_principal {
+    color: red;
+}
+/* Por atributo */
+[subtitulo="sub-h2"] {
+    color: rebeccapurple;
+}
+/* Desendiente */
+h2 p {
+    color: yellow;
+}
+h2 b {
+    color:blue;
+}
+.una_clase p {
+    background: rgb(248, 86, 86);
+    color: white;
+}
+.otra_clase b {
+    background: grey;
+}
+.otra_clase b span {
+    background: black;
+    color: yellowgreen;
+}
+/* Pseudo clases */
+/* Cambiar de color del texto cuando el cursor pasa por encima del mismo */
+.hijo h1:hover {
+    color: red;
+}
+.hijo h2:hover {
+    color: blue;
+}
+.hijo h2 p:hover {
+    color: green;
+}
+.hijo h2 b:hover {
+    color:rgb(255, 60, 0);
+}
+/* Prioridad */
+/* aplicar estilo directamente en el HTML */
+/* ese estilo tiene prioridad sobre todos */
+#color_amarillo {
+    color: yellow;
+}
+[atributo="color_verde"] { /* se supone que este tiene mas prioridad sobre la clase */
+    color:greenyellow;
+}
+.color_rojo {
+    color: red;
+}
+/* Metodologia BEM */
+/* ejemplo de como usar la metodologia BEM en CSS */
+
+.contact-form__input {
+    color:red;
+}
+.contact-form__input:first-child { /* NOTA: muchas cosas en CSS mezcladas */
+    color:blue;
+}
+.contact-form__input--active {
+    color:rgb(0, 255, 42);
+} 

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Repeat autoevaluacion_1-01 to autoevaluacion_1-10</title>
+        <meta charset="utf-8">
+        <meta name="author" content="alfre21">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/autoevaluacion_1-11.css">
+        <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    </head>
+    <body>
+        <!--Autoevaluaciones desde el autoevaluacion_1-01 al autoevaluacion_1-10-->
+        <div class="padre">
+            <!--dar color a todo-->
+            <div class="dar_color_a_todo">
+                <h1>Dando color a todo</h1>
+                <h2>adentro de esta caja</h2>
+                <input type="text" value="escribe tu nombre">
+                <button>Soy un boton</button>
+                <p>Este es un parrafo cualquiera</p>
+            </div>
+            <!--color por etiqueta -->
+            <div class="color_etiqueta">
+                <h1>Color pot etiqueta</h1>
+                <h2>este es un subtitulo</h2>
+                <input type="text" value="escribe algo...">
+                <button>Aceptar</button>
+                <p>Parrafo de ejemplo</p>
+            </div>
+            <!--Color por clase-->
+            <div class="color_clase">
+                <h1 class="titulo">Color por clases</h1>
+                <h2 class="titulo_secundario">Titulo secundario</h2>
+                <input class="ingresar" type="text" value="escxribe algo...">
+                <button class="boton">Salir</button>
+                <p class="parrafo">Este es un parrafo cualquiera</p>
+            </div>
+            <!--Color por ID, atributo y de forma desendiente-->
+            <div class="color_id_atributo_desendiente">
+                <h1 id="titulo_principal">Color por ID</h1>
+                <h2 id="id_2" subtitulo="sub-h2">Color por atributo</h2>
+                <h2><b>Color desendiente</b></h2>
+                <h2><p>Otro por color desendiente</p></h2>
+                <h2 class="una_clase"><p>Un subtitulo H2 en CSS 3</p></h2>
+                <h2 class="otra_clase"><b>Otro subtitulo en H2 con CSS 3<span>y algo mas...</span></b></h2>
+            </div>
+            <!--Pseudo clases-->
+            <!--cambia color del texto cuando pasa el cursor del mouse-->
+            <div class="hijo">
+                <h1>Pseudo clases. Cambia de color el texto cuando se pasa el cursor por encima del mismo</h1>
+                <h2>Este es un H2</h2>
+                <h2><p>H2 con CSS</p></h2>
+                <h2><b>H2 con negrita</b></h2>
+            </div>
+            <div class="prioridad">
+                <!--Este elemento se queda con el color que tiene mas prioridad en CSS 3-->
+                <h1 class="color_rojo" atributo="color_verde" id="color_amarillo" style="color:blue;">Elementos</h1>
+            </div>
+            <!--Metodologia BEM-->
+            <div class="metodologia_bem">
+                <div class="contact-form">
+                    <h1>Metodología BEM</h1>
+                    <input type="text" class="contact-form__input">
+                    <input type="text" class="contact-form__input--active">
+                    <input type="text" class="contact-form__input">
+                    <input type="password" class="contact-form__input">
+                </div>
+                <!--otros ejemplos de la metodologia BEM-->
+                <div class="contact-form">
+                    <p class="contact-form__p">
+                        <h2 class="contact-form__p-h2"></h2>
+                        <h3 class="contact-form__p-h3"><b class="contact-form__p-h3-b"></b></h3>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
