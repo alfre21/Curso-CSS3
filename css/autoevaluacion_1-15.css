@@ -3,5 +3,58 @@ Overflow auto, scroll and hidden */
 * {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
-    /*font-weight: 100;*/
+    font-weight: 100;
+}
+body {
+    background: black;
+}
+.texto-auto {
+    margin: auto;
+    margin-left: 20px;
+    width: 350px;
+    height: 350px;
+    border: 5px solid blue;
+    overflow: auto;
+    background: grey;
+}
+.texto-scroll {
+    margin: auto;
+    margin-left: 20px;
+    width: 350px;
+    height: 350px;
+    border: 5px solid red;
+    background: grey;
+    overflow: scroll;
+}
+.texto-hidden {
+    margin: auto;
+    margin-left: 20px;
+    width: 350px;
+    height: 350px;
+    border: 5px solid yellowgreen;
+    background: grey;
+    overflow: hidden;
+}
+.caja-imagen {
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
+    background: teal;
+    overflow: hidden;
+}
+.caja-imagen img {
+    width: 500px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    outline: 2px solid red;
+    transition: all 2s;
+}
+.caja-imagen:hover > img {
+    width: 500px;
+    top: 0px;
+    left: 0px;
+    outline: 3px solid blueviolet;
 }
